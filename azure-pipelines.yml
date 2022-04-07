@@ -10,12 +10,12 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
-  webAppName: '<Name of your webapp>'
-  serviceConnection: '<Name of your webARM Service connection>'
-  azureSubscriptionId: '<Azure subscriptionId>'
-  loadTestResource: '<Name of your load test resource>'
-  loadTestResourceGroup: '<Name of your load test resource group>'
-  location: 'EAST US'
+  webAppName: 'FTC1'
+  serviceConnection: 'jorgefuenteseca-arango-FTC Test-8df38d37-e466-425f-b08b-9b9970aea6c5'
+  azureSubscriptionId: '8df38d37-e466-425f-b08b-9b9970aea6c5'
+  loadTestResource: 'FTC1'
+  loadTestResourceGroup: 'test_devops'
+  location: 'westeurope'
 
 
 stages:
